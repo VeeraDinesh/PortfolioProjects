@@ -1,3 +1,7 @@
+                                    --------------------Data Exploration using covid Dataset-----------------------------
+                                    
+-----Pulling Data from coviddeaths Table-------                                    
+
 SELECT * 
 FROM  coviddeaths
 WHERE  continent IS NOT NULL  
@@ -6,6 +10,13 @@ order by 3,4;
 SELECT * 
 FROM  coviddeaths
 WHERE  iso_code = 'OWID_AFR';
+
+
+-----Pulling Data from covidvaccinations Table-------                                    
+
+SELECT * 
+FROM covidvaccinations c 
+order by 3,4;
 
 
 
