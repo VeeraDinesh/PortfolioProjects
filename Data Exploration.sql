@@ -7,9 +7,7 @@ SELECT *
 FROM  coviddeaths
 WHERE  iso_code = 'OWID_AFR';
 
-SELECT * 
-FROM covidvaccinations c 
-order by 3,4;
+
 
 -- SELECT  Data that we are going to be using
 
